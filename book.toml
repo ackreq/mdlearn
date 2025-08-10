@@ -1,0 +1,26 @@
+[book]
+title = "Learning Markdown"
+authors = ["Mohammadreza Roosta", "Dr. Hojat Farzadfard"]
+src = "src"
+language = "fa"
+multilingual= true
+
+[output.html]
+additional-css = [
+  "theme/2018-edition.css",
+  "theme/semantic-notes.css",
+  "theme/listing.css",
+  "theme/custom.css",
+  "./mdbook-admonish.css"
+]
+git-repository-url = "https://github.com/slash071/mdlearn"
+
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+on_failure = "bail"
+assets_version = "3.1.0" # do not edit: managed by `mdbook-admonish install`
+
+#[preprocessor.quiz]
+
+#[output.pdf]
