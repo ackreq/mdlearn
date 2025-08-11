@@ -6,8 +6,7 @@
 
 - [مقدمه مارک‌دون](./markdown/intro.md)
 
-  - [زبان‌های مارک‌آپ](./markdown/markup-languages.md)
-  - [پیدایش مارک‌دون](./markdown/makrdown-history.md)
+  - [مارک‌آپ و آغاز مارک‌دون](./markdown/makrdown-history.md)
   - [کاربردها و مزایا](./markdown/usecases.md)
   - [ویرایشگرها](./markdown/editors.md)
   - [اصول اولیه](./markdown/basics.md)

@@ -8,13 +8,11 @@ This project is a structured guide to understanding Markdown, its use cases, too
 
 ## Table of Contents
 
-- [ ] **What Are Markup Languages?**  
-       A quick intro to markup languages and how they differ from programming languages.
-- [ ] **A Brief History of Markdown**  
-       Where it started and why it's become the go-to format for documentation.
+- [x] **Markup & Markdown**  
+       What markup languages are and how Markdown became the go-to for documentation.
 - [ ] **Use Cases of Markdown**  
        From documentation and note-taking to blogging and slides.
-- [ ] **Editors**  
+- [x] **Editors**  
        A look at Markdown editors — from raw to rich.
 - [ ] **Markdown ‌Basics**  
        Explore syntax, tips, and lesser-known tricks.
