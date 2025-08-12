@@ -10,7 +10,7 @@ This project is a structured guide to understanding Markdown, its use cases, too
 
 - [x] **Markup & Markdown**  
        What markup languages are and how Markdown became the go-to for documentation.
-- [ ] **Use Cases of Markdown**  
+- [x] **Use Cases of Markdown**  
        From documentation and note-taking to blogging and slides.
 - [x] **Editors**  
        A look at Markdown editors — from raw to rich.
