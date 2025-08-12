@@ -2,8 +2,6 @@
 
 A practical, concise guide to learning and mastering Markdown — powered by `mdBook`.
 
-## Overview
-
 This project is a structured guide to understanding Markdown, its use cases, tools, and extensions like LaTeX and Pandoc.
 
 ## Table of Contents
@@ -13,7 +11,7 @@ This project is a structured guide to understanding Markdown, its use cases, too
 - [x] **Use Cases of Markdown**  
        From documentation and note-taking to blogging and slides.
 - [x] **Editors**  
-       A look at Markdown editors — from raw to rich.
+       An overview of recommended editors across different platforms
 - [ ] **Markdown ‌Basics**  
        Explore syntax, tips, and lesser-known tricks.
 - [ ] **Markdown Flavors**  
@@ -22,11 +20,6 @@ This project is a structured guide to understanding Markdown, its use cases, too
        Convert Markdown to other formats (PDF, DOCX, HTML, etc.).
 - [ ] **Markdown + LaTeX**  
        Learn to write math and scientific docs using LaTeX inside Markdown.
-
-## Tech Stack
-
-- [`mdBook`](https://rust-lang.github.io/mdBook/) — for building the book
-- GitHub Actions — for automated builds and deploys
 
 ## How to Build Locally
 
@@ -41,3 +34,9 @@ git clone --depth=1 https://github.com/slash071/mdlearn.git
 cd mdlearn
 mdbook serve --open
 ```
+
+## Attribution & Licensing
+
+This project includes content adapted from [Markdown Guide by Matt Cone](https://www.markdownguide.org/), used under the [Creative Commons Attribution 4.0 International (CC BY-SA 4.0.)](https://creativecommons.org/licenses/by/4.0/) license.
+
+All content created in this project is also licensed under the same [CC BY-SA 4.0.](https://creativecommons.org/licenses/by/4.0/) license.
