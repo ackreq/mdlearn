@@ -6,6 +6,13 @@ code {
     text-align: left;
 }
 
+pre.language-rtl,
+pre code.language-rtl {
+    direction: rtl !important;
+    text-align: right !important;
+    font-family: "Vazirmatn", Arial, sans-serif !important;
+}
+
 .content {
     text-align: justify;
     direction: rtl;
