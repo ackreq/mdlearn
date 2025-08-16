@@ -1,7 +1,6 @@
 # Learning Markdown
 
-A practical, concise guide to learning and mastering Markdown — powered by `mdBook`.
-
+A practical, concise guide to learning and mastering Markdown — powered by `mdBook`.  
 This project is a structured guide to understanding Markdown, its use cases, tools, and extensions like LaTeX and Pandoc.
 
 ## Table of Contents
@@ -20,6 +19,11 @@ This project is a structured guide to understanding Markdown, its use cases, too
        Convert Markdown to other formats (PDF, DOCX, HTML, etc.).
 - [ ] **Markdown + LaTeX**  
        Learn to write math and scientific docs using LaTeX inside Markdown.
+
+## How to Read
+
+- **Online:** Accessible on [GitHub Pages](https://ackreq.github.io/mdlrean).
+- **Offline:** Build and serve the book locally (see instructions below).
 
 ## How to Build Locally
 
