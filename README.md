@@ -11,7 +11,7 @@ This project is a structured guide to understanding Markdown, its use cases, too
        From documentation and note-taking to blogging and slides.
 - [x] **Editors**  
        An overview of recommended editors across different platforms
-- [ ] **Markdown ‌Basics**  
+- [x] **Markdown ‌Basics**  
        Explore syntax, tips, and lesser-known tricks.
 - [ ] **Markdown Flavors**  
        Variations of Markdown like GitHub Flavored Markdown (GFM) and how they extend the original syntax.
@@ -41,6 +41,6 @@ mdbook serve --open
 
 ## Attribution & Licensing
 
-This project includes content adapted from [Markdown Guide by Matt Cone](https://www.markdownguide.org/), used under the [Creative Commons Attribution 4.0 International (CC BY-SA 4.0.)](https://creativecommons.org/licenses/by/4.0/) license.
+This project includes content adapted from [_The Markdown Guide_ by Matt Cone](https://www.markdownguide.org/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-All content created in this project is also licensed under the same [CC BY-SA 4.0.](https://creativecommons.org/licenses/by/4.0/) license.
+All original content in this project is also shared under the same [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
