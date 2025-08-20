@@ -11,5 +11,6 @@
   - [ویرایشگرها](./markdown/editors.md)
   - [قواعد پایه](./markdown/basics.md)
   - [مارک‌دون گسترش‌یافته](./markdown/markdown-extended.md)
+  - [راهنمای سریع](./markdown/cheat-sheet.md)
   - [پنداک (Pandoc)](./markdown/pandoc.md)
   - [مارک‌دون + لاتک](./markdown/markdown-latex.md)
