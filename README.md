@@ -1,29 +1,24 @@
 # Learning Markdown
 
-A practical, concise guide to learning and mastering Markdown — powered by `mdBook`.  
-This project is a structured guide to understanding Markdown, its use cases, tools, and extensions like LaTeX and Pandoc.
+A comprehensive and practical guide to Markdown in Persian — built with _mdBook_.  
+This project is a structured guide to understanding Markdown, its use cases, and tools.
 
 ## Table of Contents
 
 #### Markdown
 
-- [x] **Markup & Markdown**  
-       What markup languages are and how Markdown became the go-to for documentation.
-- [x] **Use Cases of Markdown**  
-       From documentation and note-taking to blogging and beyond that.
-- [x] **Editors**  
-       An overview of recommended editors across different platforms.
-- [x] **Markdown ‌Basics**  
-       Explore syntax, tips, and best practices.
-- [x] **Markdown Extended**  
-       Variations of Markdown like GitHub Flavored Markdown (GFM) and how they extend the original syntax.
-- [x] **Markdown Cheatsheet**  
-       A quick reference guide with essential syntax and formatting rules.
-
-#### Pandoc
-
-- [ ] **Pandoc Essentials**  
-       Introduction to Pandoc, a universal document converter.
+- **Markup & Markdown**  
+   What markup languages are and how Markdown became the go-to for documentation.
+- **Use Cases of Markdown**  
+   From documentation and note-taking to blogging and beyond that.
+- **Editors**  
+   An overview of recommended editors across different platforms.
+- **Markdown ‌Basics**  
+   Explore syntax, tips, and best practices.
+- **Markdown Extended**  
+   Variations of Markdown like GitHub Flavored Markdown (GFM) and how they extend the original syntax.
+- **Markdown Cheatsheet**  
+   A quick reference guide with essential syntax and formatting rules.
 
 ## How to Read
 
