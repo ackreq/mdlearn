@@ -5,20 +5,25 @@ This project is a structured guide to understanding Markdown, its use cases, too
 
 ## Table of Contents
 
+#### Markdown
+
 - [x] **Markup & Markdown**  
        What markup languages are and how Markdown became the go-to for documentation.
 - [x] **Use Cases of Markdown**  
-       From documentation and note-taking to blogging and slides.
+       From documentation and note-taking to blogging and beyond that.
 - [x] **Editors**  
-       An overview of recommended editors across different platforms
+       An overview of recommended editors across different platforms.
 - [x] **Markdown ‌Basics**  
-       Explore syntax, tips, and lesser-known tricks.
-- [ ] **Markdown Flavors**  
+       Explore syntax, tips, and best practices.
+- [x] **Markdown Extended**  
        Variations of Markdown like GitHub Flavored Markdown (GFM) and how they extend the original syntax.
+- [x] **Markdown Cheatsheet**  
+       A quick reference guide with essential syntax and formatting rules.
+
+#### Pandoc
+
 - [ ] **Pandoc Essentials**  
-       Convert Markdown to other formats (PDF, DOCX, HTML, etc.).
-- [ ] **Markdown + LaTeX**  
-       Learn to write math and scientific docs using LaTeX inside Markdown.
+       Introduction to Pandoc, a universal document converter.
 
 ## How to Read
 
@@ -29,15 +34,19 @@ This project is a structured guide to understanding Markdown, its use cases, too
 
 ```sh
 # Install mdBook:
-cargo install mdbook
+cargo install mdbook mdbook-admonish
 
 # Clone the repository:
-git clone --depth=1 https://github.com/slash071/mdlearn.git
+git clone --depth=1 https://github.com/ackreq/mdlearn.git
 
 # Navigate into the project and serve the book:
 cd mdlearn
 mdbook serve --open
 ```
+
+## Contributing
+
+mdlearn is an open project, and I welcome feedback and contributions. If you find errors, have suggestions, or want to contribute additional content, feel free to open a pull request or submit an issue.
 
 ## Attribution & Licensing
 
