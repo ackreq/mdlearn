@@ -38,7 +38,7 @@ Obsidian تنها یک ویرایشگر ساده متن نیست؛ این برن
 تصویر زیر این روند را نشان میدهد:
 
 <div style="text-align: center;">
-  <img src="../files/Markdown/editors-howto.png" alt="مراحل خروجی گرفتن از کد مارک‌دون" title="مراحل خروجی گرفتن از کد مارک‌دون"
+  <img src="../files/markdown/editors-howto.png" alt="مراحل خروجی گرفتن از کد مارک‌دون" title="مراحل خروجی گرفتن از کد مارک‌دون"
     style="max-width: 100%; height: auto;">
 </div>
 

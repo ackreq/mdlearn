@@ -7,7 +7,7 @@
 به‌عنوان مثال، تصویر زیر بخشی از یک کد مارک‌دون را نشان می‌دهد؛ کد در سمت چپ و پیش‌نمایش آن در سمت راست قرار دارد:
 
 <div style="text-align: center;">
-  <img src="../files/Markdown/markdown-sample.png" alt="نمونه‌ای از کد مارک‌دون" title="نمونه‌ای از کد مارک‌دون"
+  <img src="../files/markdown/markdown-sample.png" alt="نمونه‌ای از کد مارک‌دون" title="نمونه‌ای از کد مارک‌دون"
     style="max-width: 100%; height: auto;">
 </div>
 
