@@ -24,9 +24,9 @@
 
 <div style="text-align: center;">
   <img src="../files/pandoc/pandoc-magic.png" 
-       alt="مراحل تبدیل پنداک" 
-       title="مراحل تبدیل پنداک"
-       style="max-width: 80%; height: auto;">
+    alt="مراحل تبدیل پنداک" 
+    title="مراحل تبدیل پنداک"
+    style="max-width: 80%; height: auto;">
 </div>
 
 پنداک تنها برای تبدیل مارک‌دون به فرمت‌های خروجی مختلف نیست؛ بلکه می‌تواند بین **انواع فرمت‌های متفاوت** ورودی و خروجی تبدیل انجام دهد. با این حال، در این کتاب تنها به **تبدیل مارک‌دون به فرمت‌های دیگر** می‌پردازیم.
@@ -45,18 +45,18 @@
 
 <div style="text-align: center;">
   <img src="../files/pandoc/pandoc-filters.png" 
-       alt="فیلترهای پنداک" 
-       title="فیلترهای پنداک"
-       style="max-width: 35%; height: auto;">
+    alt="فیلترهای پنداک" 
+    title="فیلترهای پنداک"
+    style="max-width: 35%; height: auto;">
 </div>
 
 برای درک بهتر نحوه‌ی کار AST، ساده‌ترین روش این است که یک نمونه را مشاهده کنیم. فرض کنید سندی به شکل زیر داریم:
 
 <div style="text-align: center;">
   <img src="../files/pandoc/sample-document.png" 
-       alt="نمونه سند ورودی پنداک" 
-       title="نمونه سند ورودی پنداک"
-       style="max-width: 50%; height: auto;">
+    alt="نمونه سند ورودی پنداک" 
+    title="نمونه سند ورودی پنداک"
+    style="max-width: 50%; height: auto;">
 </div>
 
 اگر این سند به‌عنوان مثال در **LaTeX** نوشته شده باشد (نکته‌ی اصلی پنداک این است که فرمت سند اهمیتی ندارد)، دستور زیر AST آن را تولید می‌کند:

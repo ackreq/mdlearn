@@ -315,7 +315,9 @@ greet("World")
 خروجی حاصل به این شکل خواهد بود:
 
 <div style="text-align: right;">
-  <img src="../files/markdown/tux.png" alt="Tux the Mascot" title="Tux the Mascot"
+  <img src="../files/markdown/tux.png" 
+    alt="Tux the Mascot" 
+    title="Tux the Mascot"
     style="max-width: 25%; height: auto;">
 </div>
 
