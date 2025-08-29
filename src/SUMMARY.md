@@ -4,7 +4,7 @@
 
 ## Markdown
 
-- [مقدمه مارک‌دون (Markdown)](./markdown/intro.md)
+- [مقدمه مارک‌دون](./markdown/intro.md)
   - [مارک‌آپ و آغاز مارک‌دون](./markdown/makrdown-history.md)
   - [کاربردها و مزایا](./markdown/usecases.md)
   - [ویرایشگرها](./markdown/editors.md)
@@ -14,7 +14,8 @@
 
 ## Pandoc
 
-- [آشنایی با پنداک (Pandoc)](./pandoc/intro.md)
-  - [نصب و راه‌آندازی]()
+- [آشنایی با پنداک](./pandoc/intro.md)
+  - [رابط خط فرمان](./pandoc/cli-basics.md)
+  - [نصب و راه‌آندازی](./pandoc/installation.md)
   - [شروع کار با پنداک]()
   - [مارک‌دون و لاتک]()
