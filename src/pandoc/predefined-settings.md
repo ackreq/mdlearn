@@ -1,0 +1,67 @@
+## تنظیمات از پیش تعیین شده
+
+پنداک به شما این امکان را می‌دهد که تنظیمات و گزینه‌های مختلفی که معمولاً در خط فرمان می‌نویسید، در یک فایل YAML ذخیره کنید و به جای تایپ مکرر همه‌ی آن‌ها، فقط به آن فایل ارجاع دهید.
+
+YAML (مخفف YAML Ain't Markup Language) یک فرمت متنی ساده و خوانا برای ذخیره‌سازی داده‌ها و پیکربندی‌هاست. در اینجا از YAML برای تعریف گزینه‌ها و پارامترهای پنداک استفاده می‌کنیم. فایل YAML ساختار ساده‌ای دارد و با فاصله‌ها و تورفتگی‌ها (indentation) گزینه‌ها و مقادیر را مشخص می‌کند.
+
+به زبان ساده:
+
+- شما یک فایل متنی با فرمت **YAML** می‌سازید که داخل آن گزینه‌ها و پارامترهای مورد نظرتان برای پنداک را تعریف می‌کنید.
+- سپس در خط فرمان به جای نوشتن همه‌ی گزینه‌ها، فقط می‌نویسید:
+
+```sh
+pandoc input.md -o output.pdf --defaults /path/to/file.yaml
+```
+
+- پنداک تمام تنظیمات داخل فایل YAML را به‌صورت خودکار اعمال می‌کند.
+
+مثال ساده از یک فایل YAML:
+
+```yaml
+pdf-engine: xelatex
+toc: true
+number-sections: true
+
+variables:
+  geometry: "a4paper, margin=2.5cm"
+  mainfont: Yas
+  fontsize: 12pt
+```
+
+حالا کافی است فقط بنویسید:
+
+```sh
+pandoc input.md -o output.pdf --defaults config.yaml
+```
+
+و همه‌ی گزینه‌ها به طور خودکار اعمال می‌شوند. این روش مخصوصاً وقتی دستور پنداک شما طولانی است یا چندین گزینه تکراری دارد بسیار مفید است و کار با پنداک را راحت‌تر می‌کند.
+
+گزینه های زیر یک نمونه‌ای ایده‌آل برای زبان فارسی می‌باشد:
+
+```yaml
+pdf-engine: xelatex
+top-level-division: chapter # part, section
+
+variables:
+  geometry: "a4paper, margin=1.3in"
+  fontsize: 12pt
+  header-includes:
+    - \usepackage{hyperref}
+    - \usepackage{xepersian}
+    - \settextfont{XB Niloofar}
+    - '\renewcommand{\labelitemi}{\tiny\textbullet}' # Set the size of bullet points to small
+```
+
+جدول زیر، هر کدام از گزینه‌های تعریف‌ شده در فایل YAML بالا توضیح می‌دهد:
+
+|                               گزینه                               |                     توضیح                      |
+| :---------------------------------------------------------------: | :--------------------------------------------: |
+|             <div dir="ltr">pdf-engine: xelatex</div>              | موتور PDF برای پشتیبانی بهتر از فونت‌های فارسی |
+|         <div dir="ltr">top-level-division: chapter</div>          |             تعیین سطح اصلی بخش‌ها              |
+|      <div dir="ltr">geometry: "a4paper, margin=1.3in"</div>       |          تنظیم اندازه کاغذ و حاشیه‌ها          |
+|                <div dir="ltr">fontsize: 12pt</div>                |                اندازه فونت متن                 |
+|               <div dir="ltr">header-includes</div>                |    هدرهایی که قبل از شروع سند تعریف می‌شوند    |
+|            <div dir="ltr">\usepackage{hyperref}</div>             |          فعال‌کردن لینک‌ها و ارجاعات           |
+|            <div dir="ltr">\usepackage{xepersian}</div>            |           پشتیبانی کامل از متن فارسی           |
+|          <div dir="ltr">\settextfont{XB Niloofar}</div>           |             تعیین فونت اصلی فارسی              |
+| <div dir="ltr">\renewcommand{\labelitemi}{\tiny\textbullet}</div> |          کوچک کردن گلوله‌های لیست‌ها           |

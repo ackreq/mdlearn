@@ -20,7 +20,7 @@ This project is a structured guide to understanding Markdown, its use cases, and
 - **Markdown Cheatsheet**  
    A quick reference guide with essential syntax and formatting rules.
 
-## Pandoc
+#### Pandoc
 
 - [x] **Getting to Know Pandoc**  
        Learn what Pandoc is, how it works, and why it's a powerful tool for converting documents between formats.
@@ -28,10 +28,7 @@ This project is a structured guide to understanding Markdown, its use cases, and
        Understand what the command line is, how it differs from graphical interfaces (GUI), and why it’s essential for working with Pandoc.
 - [x] **Installation & Setup**  
        Step-by-step guide to installing Pandoc and preparing your environment.
-- [ ] **Getting Started**  
-       Your first document conversions and basic workflows.
-- [ ] **Markdown & LaTeX**  
-       Combining Markdown and LaTeX for advanced document formatting.
+- [ ] **Basic Conversions**
 
 ## How to Read
 

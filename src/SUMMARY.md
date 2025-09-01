@@ -17,5 +17,5 @@
 - [آشنایی با پنداک](./pandoc/intro.md)
   - [رابط خط فرمان](./pandoc/cli-basics.md)
   - [نصب و راه‌آندازی](./pandoc/installation.md)
-  - [شروع کار با پنداک]()
-  - [مارک‌دون و لاتک]()
+  - [تبدیلات ساده](./pandoc/basic-conversions.md)
+  - [تنظیمات آماده](./pandoc/predefined-settings.md)

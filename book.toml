@@ -1,6 +1,6 @@
 [book]
 title = "Learning Markdown"
-authors = ["Mohammadreza Roosta"]
+authors = ["Mohammadreza Roosta", "Hojat Farzardfard"]
 src = "src"
 language = "fa"
 multilingual= true
