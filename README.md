@@ -22,13 +22,16 @@ This project is a structured guide to understanding Markdown, its use cases, and
 
 #### Pandoc
 
-- [x] **Getting to Know Pandoc**  
-       Learn what Pandoc is, how it works, and why it's a powerful tool for converting documents between formats.
-- [x] **Command Line Interface (CLI)**  
-       Understand what the command line is, how it differs from graphical interfaces (GUI), and why it’s essential for working with Pandoc.
-- [x] **Installation & Setup**  
-       Step-by-step guide to installing Pandoc and preparing your environment.
-- [ ] **Basic Conversions**
+- **Getting to Know Pandoc**  
+   Learn what Pandoc is, how it works, and why it's a powerful tool for converting documents between formats.
+- **Command Line Interface (CLI)**  
+   Understand what the command line is, how it differs from graphical interfaces (GUI), and why it’s essential for working with Pandoc.
+- **Installation & Setup**  
+   Step-by-step guide to installing Pandoc and preparing your environment.
+- **Basic Conversions**  
+   Explore how to transform Markdown into HTML, LaTeX, or PDF, and adjust settings to fit your needs.
+- **Predefined Settings**  
+   See how to store common options in YAML files to reuse them easily and keep commands clean.
 
 ## How to Read
 
