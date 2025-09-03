@@ -13,7 +13,7 @@ additional-css = [
   "theme/custom.css",
   "./mdbook-admonish.css"
 ]
-git-repository-url = "https://github.com/slash071/mdlearn"
+git-repository-url = "https://github.com/ackreq/mdlearn"
 
 
 [preprocessor.admonish]

@@ -8,6 +8,7 @@
 
   - [Obsidian](https://obsidian.md/) (پیشنهادی)
   - [MarkText](https://github.com/marktext/marktext)
+  - [VS Code](https://code.visualstudio.com/)
   - [Anytype](https://anytype.io/)
   - [Ghostwriter](https://ghostwriter.kde.org/)
 
