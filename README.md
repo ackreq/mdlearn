@@ -1,5 +1,7 @@
 # Learning Markdown
 
+🌎 _README available in: [English](README.md) | [فارسی](README.fa.md)_
+
 A comprehensive and practical guide to Markdown in Persian — built with _mdBook_.  
 This project is a structured guide to understanding Markdown, its use cases, and tools.
 
@@ -23,9 +25,11 @@ This project is a structured guide to understanding Markdown, its use cases, and
 #### Pandoc
 
 - **Getting to Know Pandoc**  
-   Learn what Pandoc is, how it works, and why it's a powerful tool for converting documents between formats.
+   Learn what Pandoc is, and why it's a powerful tool for converting documents between formats.
 - **Command Line Interface (CLI)**  
    Understand what the command line is, how it differs from graphical interfaces (GUI), and why it’s essential for working with Pandoc.
+- **How Pandoc Works**  
+   Learn how Pandoc reads a document, processes it, and outputs it in the desired format.
 - **Installation & Setup**  
    Step-by-step guide to installing Pandoc and preparing your environment.
 - **Basic Conversions**  
