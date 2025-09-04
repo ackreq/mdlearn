@@ -1,6 +1,6 @@
 [book]
 title = "Learning Markdown"
-authors = ["Mohammadreza Roosta", "Hojat Farzardfard"]
+authors = ["Mohammadreza Roosta"]
 src = "src"
 language = "fa"
 multilingual= true
@@ -21,6 +21,11 @@ command = "mdbook-admonish"
 on_failure = "bail"
 assets_version = "3.1.0" # do not edit: managed by `mdbook-admonish install`
 
-#[preprocessor.quiz]
-
 #[output.pdf]
+#static_site_url = "https://github.com/ackreq/mdlearn"
+#margin-top = 0.5
+#margin-bottom = 0.5
+#margin-left = 0.5
+#margin-right = 0.5
+
+#[preprocessor.quiz]
