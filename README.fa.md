@@ -1,7 +1,16 @@
-# یادگیری مارک‌دون
+<div align="center" dir="rtl">
 
-یک راهنمای جامع و کاربردی برای مارک‌دون به زبان فارسی — ساخته‌شده با _mdBook_.  
-این پروژه یک راهنمای ساختاریافته برای درک مارک‌دون، کاربردهای آن و ابزارهای مرتبط است.
+  # یادگیری مارک‌دون
+
+  یک راهنمای جامع و کاربردی برای مارک‌دون به زبان فارسی — ساخته‌شده با _mdBook_.  
+  این پروژه یک راهنمای ساختاریافته برای درک مارک‌دون، کاربردهای آن و ابزارهای مرتبط است.
+
+  [![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
+
+  [**پیش‌نمایش زنده** ←][demo]
+  [![Devices Mockup](src/files/showcase.png)][demo]
+
+</div>
 
 ## فهرست مطالب
 
@@ -63,3 +72,6 @@ mdbook serve --open
 
 این پروژه شامل محتوایی اقتباس‌شده از [_The Markdown Guide_ اثر Matt Cone](https://www.markdownguide.org/) است که تحت مجوز [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) منتشر شده.  
 تمام محتوای اصلی این پروژه نیز تحت همان مجوز [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) منتشر شده است.
+
+[license]: https://github.com/ackreq/mdlearn/blob/main/LICENSE
+[demo]: https://ackreq.github.io/mdlearn

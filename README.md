@@ -1,9 +1,18 @@
-# Learning Markdown
+<div align="center">
 
-🌎 _README available in: [English](README.md) | [فارسی](README.fa.md)_
+  # Learning Markdown
 
-A comprehensive and practical guide to Markdown in Persian — built with _mdBook_.  
-This project is a structured guide to understanding Markdown, its use cases, and tools.
+  🌎 README available in: [English](README.md) | [فارسی](README.fa.md)
+
+  A comprehensive and practical guide to Markdown in Persian — built with _mdBook_.  
+  This project is a structured guide to understanding Markdown, its use cases, and tools.
+  
+  [![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
+  
+  [**Live Demo** →][demo]
+  [![Devices Mockup](src/files/showcase.png)][demo]
+
+</div>
 
 ## Table of Contents
 
@@ -65,3 +74,6 @@ mdlearn is an open project, and I welcome feedback and contributions. If you fin
 This project includes content adapted from [_The Markdown Guide_ by Matt Cone](https://www.markdownguide.org/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 All original content in this project is also shared under the same [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+[license]: https://github.com/ackreq/mdlearn/blob/main/LICENSE
+[demo]: https://ackreq.github.io/mdlearn
