@@ -1,14 +1,15 @@
 <div align="center" dir="rtl">
 
-  # یادگیری مارک‌دون
+# یادگیری مارک‌دون
 
-  یک راهنمای جامع و کاربردی برای مارک‌دون به زبان فارسی — ساخته‌شده با _mdBook_.  
-  این پروژه یک راهنمای ساختاریافته برای درک مارک‌دون، کاربردهای آن و ابزارهای مرتبط است.
+یک راهنمای جامع و کاربردی برای مارک‌دون به زبان فارسی — ساخته‌شده با _mdBook_.  
+ این پروژه یک راهنمای ساختاریافته برای درک مارک‌دون، کاربردهای آن و ابزارهای مرتبط است.
 
-  [![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
+[![CI](https://img.shields.io/github/actions/workflow/status/ackreq/mdlearn/mdbook.yml?logo=github)][ci]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
 
-  [**پیش‌نمایش زنده** ←][demo]
-  [![Devices Mockup](src/files/showcase.png)][demo]
+[**پیش‌نمایش زنده** ←][demo]
+[![Devices Mockup](src/files/showcase.png)][demo]
 
 </div>
 
@@ -73,5 +74,6 @@ mdbook serve --open
 این پروژه شامل محتوایی اقتباس‌شده از [_The Markdown Guide_ اثر Matt Cone](https://www.markdownguide.org/) است که تحت مجوز [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) منتشر شده.  
 تمام محتوای اصلی این پروژه نیز تحت همان مجوز [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) منتشر شده است.
 
+[ci]: https://github.com/ackreq/mdlearn/actions/workflows/mdbook.yml?query=event%3Apush+branch%3Amain
 [license]: https://github.com/ackreq/mdlearn/blob/main/LICENSE
 [demo]: https://ackreq.github.io/mdlearn

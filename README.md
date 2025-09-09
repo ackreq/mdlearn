@@ -1,16 +1,17 @@
 <div align="center">
 
-  # Learning Markdown
+# Learning Markdown
 
-  🌎 README available in: [English](README.md) | [فارسی](README.fa.md)
+🌎 README available in: [English](README.md) | [فارسی](README.fa.md)
 
-  A comprehensive and practical guide to Markdown in Persian — built with _mdBook_.  
-  This project is a structured guide to understanding Markdown, its use cases, and tools.
-  
-  [![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
-  
-  [**Live Demo** →][demo]
-  [![Devices Mockup](src/files/showcase.png)][demo]
+A comprehensive and practical guide to Markdown in Persian — built with _mdBook_.  
+ This project is a structured guide to understanding Markdown, its use cases, and tools.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/ackreq/mdlearn/mdbook.yml?logo=github)][ci]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
+
+[**Live Demo** →][demo]
+[![Devices Mockup](src/files/showcase.png)][demo]
 
 </div>
 
@@ -75,5 +76,6 @@ This project includes content adapted from [_The Markdown Guide_ by Matt Cone](h
 
 All original content in this project is also shared under the same [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
+[ci]: https://github.com/ackreq/mdlearn/actions/workflows/mdbook.yml?query=event%3Apush+branch%3Amain
 [license]: https://github.com/ackreq/mdlearn/blob/main/LICENSE
 [demo]: https://ackreq.github.io/mdlearn
