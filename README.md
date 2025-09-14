@@ -1,11 +1,21 @@
+<div align="center">
+
 # Learning Markdown
 
-🌎 _README available in: [English](README.md) | [فارسی](README.fa.md)_
+🌎 README available in: [English](README.md) | [فارسی](README.fa.md)
 
 A comprehensive and practical guide to Markdown in Persian — built with _mdBook_.  
-This project is a structured guide to understanding Markdown, its use cases, and tools.
+ This project is a structured guide to understanding Markdown, its use cases, and tools.
 
-## Table of Contents
+[![CI](https://img.shields.io/github/actions/workflow/status/ackreq/mdlearn/mdbook.yml?logo=github)][ci]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
+
+[**Live Demo** →][demo]
+[![Devices Mockup](src/files/showcase.png)][demo]
+
+</div>
+
+## 📑 Table of Contents
 
 #### Markdown
 
@@ -37,12 +47,12 @@ This project is a structured guide to understanding Markdown, its use cases, and
 - **Predefined Settings**  
    See how to store common options in YAML files to reuse them easily and keep commands clean.
 
-## How to Read
+## 📚 How to Read
 
 - **Online:** Accessible on [GitHub Pages](https://ackreq.github.io/mdlrean).
 - **Offline:** Build and serve the book locally (see instructions below).
 
-## How to Build Locally
+## 🛠️ Build Locally
 
 ```sh
 # Install mdBook:
@@ -56,12 +66,16 @@ cd mdlearn
 mdbook serve --open
 ```
 
-## Contributing
+## 🌱 Contributing
 
 mdlearn is an open project, and I welcome feedback and contributions. If you find errors, have suggestions, or want to contribute additional content, feel free to open a pull request or submit an issue.
 
-## Attribution & Licensing
+## 📜 Attribution & Licensing
 
 This project includes content adapted from [_The Markdown Guide_ by Matt Cone](https://www.markdownguide.org/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 All original content in this project is also shared under the same [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+[ci]: https://github.com/ackreq/mdlearn/actions/workflows/mdbook.yml?query=event%3Apush+branch%3Amain
+[license]: https://github.com/ackreq/mdlearn/blob/main/LICENSE
+[demo]: https://ackreq.github.io/mdlearn
