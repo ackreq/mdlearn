@@ -13,6 +13,10 @@ pre code.language-rtl {
     font-family: "Vazirmatn", Arial, sans-serif !important;
 }
 
+ol {
+    list-style-type: arabic-indic;
+}
+
 .content {
     text-align: justify;
     direction: rtl;

@@ -14,7 +14,7 @@
 
 ## Pandoc
 
-- [آشنایی با پنداک](./pandoc/intro.md)
+- [مقدمه‌ای بر پنداک](./pandoc/intro.md)
   - [رابط خط فرمان](./pandoc/cli-basics.md)
   - [نحوه کارکرد پنداک](./pandoc/how-pandoc-works.md)
   - [نصب و راه‌آندازی](./pandoc/installation.md)
