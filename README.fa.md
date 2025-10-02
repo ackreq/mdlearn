@@ -6,7 +6,8 @@
  این پروژه یک راهنمای ساختاریافته برای درک مارک‌دون، کاربردهای آن و ابزارهای مرتبط است.
 
 [![CI](https://img.shields.io/github/actions/workflow/status/ackreq/mdlearn/mdbook.yml?logo=github)][ci]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=white)][license]&nbsp;
+[![Last Commit](https://img.shields.io/github/last-commit/ackreq/mdlearn?color=blueviolet)][Last Commit]&nbsp;
 
 [**پیش‌نمایش زنده** ←][demo]
 [![Devices Mockup](src/files/showcase.png)][demo]
@@ -77,3 +78,4 @@ mdbook serve --open
 [ci]: https://github.com/ackreq/mdlearn/actions/workflows/mdbook.yml?query=event%3Apush+branch%3Amain
 [license]: https://github.com/ackreq/mdlearn/blob/main/LICENSE
 [demo]: https://ackreq.github.io/mdlearn
+[Last Commit]: https://github.com/ackreq/mdlearn/commits/main

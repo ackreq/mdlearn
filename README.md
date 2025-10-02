@@ -8,7 +8,8 @@ A comprehensive and practical guide to Markdown in Persian — built with _mdBoo
  This project is a structured guide to understanding Markdown, its use cases, and tools.
 
 [![CI](https://img.shields.io/github/actions/workflow/status/ackreq/mdlearn/mdbook.yml?logo=github)][ci]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=goldenrod)][license]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/ackreq/mdlearn?color=white)][license]&nbsp;
+[![Last Commit](https://img.shields.io/github/last-commit/ackreq/mdlearn?color=blueviolet)][Last Commit]&nbsp;
 
 [**Live Demo** →][demo]
 [![Devices Mockup](src/files/showcase.png)][demo]
@@ -79,3 +80,4 @@ All original content in this project is also shared under the same [CC BY-SA 4.0
 [ci]: https://github.com/ackreq/mdlearn/actions/workflows/mdbook.yml?query=event%3Apush+branch%3Amain
 [license]: https://github.com/ackreq/mdlearn/blob/main/LICENSE
 [demo]: https://ackreq.github.io/mdlearn
+[Last Commit]: https://github.com/ackreq/mdlearn/commits/main
