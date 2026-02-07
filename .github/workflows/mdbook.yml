@@ -33,16 +33,18 @@ jobs:
 
       - name: Install mdBook
         run: |
+          # TODO: Update mdbook to 0.5.x once mdbook-admonish adds official support. 
           # Send a GET request to the URL and follow redirects
-          redirect_url=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/rust-lang/mdBook/releases/latest)
+          # redirect_url=$(curl -Ls -o /dev/null -w %{url_effective} https://github.com/rust-lang/mdBook/releases/latest)
 
           # Extract the latest version number using regex
-          if [[ $redirect_url =~ v[0-9\.].*$ ]]; then
-              version="${BASH_REMATCH[0]}"
-          fi
+          # if [[ $redirect_url =~ v[0-9\.].*$ ]]; then
+          #     version="${BASH_REMATCH[0]}"
+          # fi
 
           # Get the download link for the latest binery of mdBook for GNU/Linux
-          download_url="https://github.com/rust-lang/mdBook/releases/download/$version/mdbook-$version-x86_64-unknown-linux-gnu.tar.gz"
+          # download_url="https://github.com/rust-lang/mdBook/releases/download/$version/mdbook-$version-x86_64-unknown-linux-gnu.tar.gz"
+          download_url="https://github.com/rust-lang/mdBook/releases/download/v0.4.52/mdbook-v0.4.52-x86_64-unknown-linux-gnu.tar.gz"
 
           mkdir -p bin
 
