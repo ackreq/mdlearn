@@ -3,7 +3,6 @@ title = "Learning Markdown"
 authors = ["Mohammadreza Roosta"]
 src = "src"
 language = "fa"
-multilingual= true
 
 [output.html]
 additional-css = [
